@@ -7,6 +7,7 @@ import { dbConnection } from "./database/dbconnection.js";
 import { errorMiddleware } from "./middlewares/error.js";
 import messageRouter from "./router/messageRouter.js";
 import userRouter from "./router/userRouter.js";
+import appointmentRouter from "./router/appointmentRouter.js";
 
 const app=express();
 config({path: "./config/config.env"});
@@ -30,8 +31,9 @@ app.use(
 
 app.use("/api/v1/message",messageRouter);
 app.use("/api/v1/user", userRouter);
+app.use("/api/v1/appointment", appointmentRouter);
 
 dbConnection();
 
-app.use(errorMiddleware);
+app.use(errorMiddleware);   //always use error middleware at the end
 export default app;
