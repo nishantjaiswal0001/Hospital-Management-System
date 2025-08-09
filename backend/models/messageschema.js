@@ -20,8 +20,8 @@ const messageschema=new mongoose.Schema({
    phone:{
       type: String,
     required: true,
-    minLength: [11,"phone number must contain exact 11 digits!"],
-    maxLength: [11,"phone number must contain exact 11 digits!"],
+    minLength: [10,"phone number must contain exact 10 digits!"],
+    maxLength: [10,"phone number must contain exact 10 digits!"],
    },
    message:{
       type: String,
