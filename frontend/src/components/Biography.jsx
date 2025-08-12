@@ -11,26 +11,28 @@ const Biography = ({imageUrl}) => {
           <p>Biography</p>
           <h3>Who We Are</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            blanditiis sequi aperiam. Debitis fugiat harum ex maxime illo
-            consequatur mollitia voluptatem omnis nihil nesciunt beatae esse
-            ipsam, sapiente totam aspernatur porro ducimus aperiam nisi. Ex
-            magnam voluptatum consectetur reprehenderit fugiat recusandae aut
-            similique illum natus velit, praesentium nostrum nesciunt. Deleniti,
-            nesciunt laboriosam totam iusto!
-          </p>
-          <p>We are all in 2024!</p>
-          <p>We are working on a MERN STACK PROJECT.</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            assumenda exercitationem accusamus sit repellendus quo optio dolorum
-            corporis corrupti. Quas similique vel minima veniam tenetur
-            obcaecati atque magni suscipit laboriosam! Veniam vitae minus nihil
-            cupiditate natus provident. Ex illum quasi pariatur odit nisi
-            voluptas illo qui ipsum mollitia. Libero, assumenda?
-          </p>
-          <p>Lorem ipsum dolor sit amet!</p>
-          <p>Coding is fun!</p>
+  At Jeevan Jyoti, our mission is to bring quality healthcare within the reach of every individual.
+  We believe that timely diagnosis, compassionate treatment, and patient education are the keys
+  to healthier communities. Our services focus on blending modern medical technology with
+  a human touch to ensure every patient feels cared for and understood.
+</p>
+{/* <p>
+  In 2024, we are expanding our reach through digital health platforms and
+  telemedicine solutions, making expert medical advice accessible from anywhere.
+</p> */}
+<p>
+  Our team works closely with medical professionals to create innovative tools that assist
+  in accurate diagnoses, monitor patient recovery, and ensure continuity of care.
+  From preventive screenings to post-treatment follow-ups, we’re committed to
+  supporting patients at every stage of their health journey.
+</p>
+<p>
+  Because at Jeevan Jyoti, we believe that every life is precious—and every heartbeat matters.
+</p>
+<p>
+  Together, let's build a healthier tomorrow.
+</p>
+
         </div>
       </div>
     </>
