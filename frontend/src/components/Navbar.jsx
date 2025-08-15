@@ -20,7 +20,7 @@ const Navbar = () => {
       })
       .catch((err) => {
         toast.error(err.response.data.message);
-      });
+      });2
   };
 
   const navigateTo = useNavigate();

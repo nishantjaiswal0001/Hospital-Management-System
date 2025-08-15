@@ -8,7 +8,7 @@ const AppointmentForm = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [nic, setNic] = useState("");
+  const [aadhar, setAadhar] = useState("");
   const [dob, setDob] = useState("");
   const [gender, setGender] = useState("");
   const [appointmentDate, setAppointmentDate] = useState("");
@@ -53,7 +53,7 @@ const AppointmentForm = () => {
           lastName,
           email,
           phone,
-          nic,
+          aadhar,
           dob,
           gender,
           appointment_date: appointmentDate,
@@ -73,7 +73,7 @@ const AppointmentForm = () => {
         setLastName(""),
         setEmail(""),
         setPhone(""),
-        setNic(""),
+        setAadhar(""),
         setDob(""),
         setGender(""),
         setAppointmentDate(""),
@@ -123,9 +123,9 @@ const AppointmentForm = () => {
           <div>
             <input
               type="number"
-              placeholder="NIC"
-              value={nic}
-              onChange={(e) => setNic(e.target.value)}
+              placeholder="Aadhar"
+              value={aadhar}
+              onChange={(e) => setAadhar(e.target.value)}
             />
             <input
               type="date"
@@ -164,7 +164,7 @@ const AppointmentForm = () => {
                 );
               })}
             </select>
-            {/* <select
+            {/*<select
               value={`${doctorFirstName} ${doctorLastName}`}
               onChange={(e) => {
                 const [firstName, lastName] = e.target.value.split(" ");
